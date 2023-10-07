@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #333333;
+  padding: 80px;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+.task {
+  display: flex;
+  gap: 13px;
+}
+form {
+  color: white;
+  background-color: #444444;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+form button {
+  background-color: #fa9b03;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+input {
+  outline: none;
+  padding: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 9px;
+  border: none;
+}
+
+.input-task {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.todos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.show-task {
+  background-color: #444444;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.task-information {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: white;
+  font-size: 18px;
+}
+.name {
+  color: #fa9b03;
+  font-size: 35px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.complete {
+  background-color: #eff8f6;
+  border: #67af9b solid;
+  color: #67af9b;
+}
+.btn {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 15px;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.delete {
+  background-color: #f4f6f9;
+  border: #aa5a5b solid;
+  color: #aa5a5b;
+}
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.done span {
+  text-decoration: line-through;
+  color: #747874;
+}
