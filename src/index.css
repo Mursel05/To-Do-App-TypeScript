@@ -104,3 +104,22 @@ input {
   text-decoration: line-through;
   color: #747874;
 }
+@media (max-width: 768px) {
+  .task {
+    flex-direction: column;
+  }
+}
+@media (max-width: 522px) {
+  form {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  body {
+    padding: 20px;
+  }
+}
